@@ -57,6 +57,9 @@
                             </div>
                         </td>
                     </tr>
+                    <tr v-if="!residentsLoading && residents.length <= 0">
+                        <td colspan="5">No data found.</td>
+                    </tr>
                 </tbody>
             </table>
             <PaginationComponent class="inline-block mt-4" :links="pagination.links" :totalData="pagination.total" :perPage="pagination.per_page"/>
