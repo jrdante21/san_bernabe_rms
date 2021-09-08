@@ -106,7 +106,6 @@ export default {
                 .then((res)=>{
                     this.residentsLoading = false
                     this.residents = res.data.data
-
                     this.pagination = res.data
                 })
                 .catch((err)=>{
