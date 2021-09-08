@@ -57,7 +57,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr v-if="residentsNoData">
+                    <tr v-if="!residentsLoading && residents.length <= 0">
                         <td colspan="5">No data found.</td>
                     </tr>
                 </tbody>
@@ -87,7 +87,6 @@ export default {
             alertErrorMsg: null,
 
             residents:[],
-            residentsNoData: false,
             residentsLoading: false,
 
             pagination:[],
@@ -107,7 +106,6 @@ export default {
                 .then((res)=>{
                     this.residentsLoading = false
                     this.residents = res.data.data
-                    if (this.residents.length <= 0) this.residentsNoData = true
 
                     this.pagination = res.data
                 })
