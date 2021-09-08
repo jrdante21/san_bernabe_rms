@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="flex gap-4 items-center mb-4">
-            <div class="flex-1"><div class="header mb-0">Resident</div></div>
+            <div class="flex-1"><div class="header mb-0">Residents</div></div>
             <div class="flex-initial">
                 <div class="dropdown">
                     <button class="button bg-blue-500 text-white">Print Residents</button>
