@@ -1,38 +1,37 @@
 <template>
     <div>
         <div class="header">Home</div>
-        <div class="card text-center uppercase">
+        <div class="card text-center">
             <div class="mb-4">
                 <img src="/images/homepg.jpg" class="w-full">
             </div>
 
-            <div class="header mb-2">Brief History of the Barangay</div>
-            <p class="mb-4">
-                IN THE EARLY 1930’S SAN BERNABE WAS A SITIO OF BARANGAY VILLA HERMOSA. THE SITIO WAS NAMED IN HONOR TO THE 
-                FIRST MAN WHO STEPPED AND MADE RESIDENT IN THE LAND. BERNABE RAMOS SUPPOSEDLY WAS THE FIRST MAN TO ESTABLISH 
-                IN THIS BARANGAY FOLLOWED BY THE FAMILIES OF ANGEL BASUG, HIPOLITO MAMACLAY, DOMING DOMINGO, AND JOSE MIGUEL. 
-                THEN IMMEDIATELY COMES IN THE EARLY 1940’S THE ARRIVAL OF ANOTHER MIGRANTS FROM ILOCOS PROVINCE, HEADED BY LIBERATO MAXIMO, 
-                CANDIDO TUNGPALAN, AND REMIGIO FIESTA THEN MRS. JOVITA RAMOS ANCHETA, AT THAT TIME TENYENTE DEL BARYO WAS AQUILINO RAMOS 
-                UNTIL THE OUTBREAK OF WORLD WAR II AND WAS SUCCEEDED BY MARTIN MAXIMO, UNTIL SUCH THEN , TIME HAS COME THAT BARANGAY SAN 
-                BERNABE WAS FORMALLY DECLARED IN 1951. SAN BERNABE HAS A TOTAL AREA OF 809 HECTARES, FARMING IS THE MAJOR SOURCE OF LIVING IN THE BARANGAY.
-                AS YEAR PASS BY , THE PROGRESS OF THE BARANGAY WAS MANIFESTED THROUGH THE UNIFIED EFFORTS 
-                OF THE PEOPLE WITH THE LEADERSHIP OF THE DIFFERENT SETS OF OFFICIALS AFTER WORLD WAR 2 SUCH AS ALFREDO NORBERTE, 
-                GREGORIO RAMOS ( YEAR 1951-1956) , HERMINIGILDO BASUG, 1972-1973 (ACTNG KAPITAN ) FAUSTINO MAMACLAY 1974-1985, 
-                CERILO ANCHETA 1985- 1991, DANILO VILLE 1991-1996, WHO BECOME A B C PRESIDENT OF MADDELA RUBEN MAXIMO 1997-2997, 
-                LARRY NORBERTE 2007-2016 ALSO BECOME A B C PRESIDENT OF MADDELA LEONARDO PIMENTEL 2016- 2018, AND AT PRESENT LOUIE B. ESTRELLA.
+            <div class="header mb-2 uppercase">Brief History of the Barangay</div>
+            <p class="mb-4 normal-case">
+                In the early 1930’s san Bernabe was a sitio of barangay Villa Hermosa. The sitio was named in honor to the first man who stepped 
+                and made resident in the land. Bernabe Ramos supposedly was the first man to establish in this barangay followed by the families 
+                of Angel Basug, Hipolito Mamaclay, Doming Domingo, and Jose Miguel. Then immediately comes in the early 1940’s the arrival of 
+                another migrants from Ilocos Province, headed by Liberato Maximo, Candido Tungpalan, and Remigio Fiesta then Mrs. Jovita Ramos Ancheta, 
+                at that time Tenyente del Baryo was Aquilino Ramos until the outbreak of World War II and was succeeded by Martin Maximo, until such then , 
+                time has come that barangay San Bernabe was formally declared in 1951. San bernabe has a total area of 809 hectares, 
+                farming is the major source of living in the barangay. As year pass by , the progress of the barangay was manifested through the unified 
+                efforts of the people with the leadership of the different sets of officials after World War II such as Alfredo Norberte, 
+                Gregorio Ramos ( year 1951-1956) , Herminigildo Basug, 1972-1973 (acting kapitan ) Faustino Mamaclay 1974-1985, Cerilo Ancheta 1985- 1991, 
+                Danilo Ville 1991-1996, who become a b c President of Maddela Ruben Maximo 1997-2997, Larry Norberte 2007-2016 also become ABC president 
+                of Maddela Leonardo Pimentel 2016- 2018 (Acting kapitan), and at Present Louie B. Estrella.
             </p>
 
-            <div class="header mb-2">Vision</div>
-            <p class="mb-4">
-                " BE A ROLE  MODEL BARANGAY IN THE IMPLEMENTATION OF VARIOUS PROGRAMS AND DELIVERY OF BASIC SERVICES AND TO HAVE A PEACEFUL, 
-                 GOD-FEARING AND PROGRESSIVE COMMUNITY."
+            <div class="header mb-2 uppercase">Vision</div>
+            <p class="mb-4 normal-case">
+                "Be a role model barangay in the implementation of various programs and delivery of basic services and to have a peaceful, 
+                god-fearing and progressive community."
             </p>
 
-            <div class="header mb-2">Mission</div>
-            <p>
-                Promote  livelihood projects, better education, improve yields of production to agricultural products and accessible needs for farmers. 
-                Conserving and protecting our environment and natural resources, and ensuring peoples’ 
-                participation in planning, implementing and discussion making.
+            <div class="header mb-2 uppercase">Mission</div>
+            <p class="normal-case">
+                Promote livelihood projects, better education, improve yields of production to agricultural products and accessible needs for farmers. 
+                Conserving and protecting our environment and natural resources, and ensuring peoples’ participation in planning, 
+                implementing and discussion making.
             </p>
         </div>
     </div>
